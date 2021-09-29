@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MainNavigation from "../../component/MainNavigation/MainNavigation";
 
 const Dashboard = () => {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -8,26 +9,24 @@ const Dashboard = () => {
                 <div className=' relative w-full lg:w-24 h-full bg-blue-800'>
                     <a
                         href='#'
-                        className=' hidden absolute top-10 left-1/2 transform -translate-x-1/2 lg:block w-14 h-14 bg-yellow-300 rounded-xl'
-                    ></a>
-                    <div className='flex lg:flex-col items-center justify-center h-full lg:space-y-4 space-x-4 lg:space-x-0 py-4'>
-                        <a
-                            href='#'
-                            className='block w-14 h-14 bg-white rounded-xl'
-                        ></a>
-                        <a
-                            href='#'
-                            className='block w-14 h-14 bg-white rounded-xl'
-                        ></a>
-                        <a
-                            href='#'
-                            className='block w-14 h-14 bg-white rounded-xl'
-                        ></a>
-                        <a
-                            href='#'
-                            className='block w-14 h-14 bg-white rounded-xl'
-                        ></a>
-                    </div>
+                        className='hidden absolute top-10 left-1/2 transform -translate-x-1/2 w-14 h-14 lg:flex lg:items-center lg:justify-center text-white rounded-xl hover:bg-white hover:bg-opacity-60'
+                    >
+                        <svg
+                            xmlns='http://www.w3.org/2000/svg'
+                            className='h-8 w-8'
+                            fill='none'
+                            viewBox='0 0 24 24'
+                            stroke='currentColor'
+                        >
+                            <path
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                                strokeWidth={2}
+                                d='M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9'
+                            />
+                        </svg>
+                    </a>
+                    <MainNavigation />
                 </div>
             </div>
 
