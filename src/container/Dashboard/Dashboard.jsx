@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MainNavigation from "../../component/MainNavigation/MainNavigation";
+import Tools from "../../component/Tools/Tools";
 
 const Dashboard = () => {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -31,7 +32,7 @@ const Dashboard = () => {
             </div>
 
             <div className='w-full p-4 lg:p-10'>
-                <div className='bg-gray-300 h-14 rounded-xl'> search</div>
+                <Tools />
 
                 <div className='bg-gray-300 rounded-xl mt-4 lg:hidden p-2'>
                     <button
