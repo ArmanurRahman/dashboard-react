@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Blog from "../../component/Blog/Blog";
+import Candlesticks from "../../component/Candlesticks/CandleSticks";
 import MainNavigation from "../../component/MainNavigation/MainNavigation";
 import Tools from "../../component/Tools/Tools";
 
@@ -140,8 +141,8 @@ const Dashboard = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='bg-gray-300 h-28 w-full mt-4 lg:mt-10 rounded-xl'></div>
 
+                                <Candlesticks />
                                 <Blog />
                             </div>
 
