@@ -1,8 +1,11 @@
 import { useState } from "react";
 import Blog from "../../component/Blog/Blog";
 import Candlesticks from "../../component/Candlesticks/CandleSticks";
+import Cards from "../../component/Cards/Cards";
 import MainNavigation from "../../component/MainNavigation/MainNavigation";
+import Percentage from "../../component/Percentage/Percentage";
 import Tools from "../../component/Tools/Tools";
+import Transactions from "../../component/Transactions/Transactions";
 
 const Dashboard = () => {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -36,14 +39,47 @@ const Dashboard = () => {
             <div className='w-full p-4 lg:p-10'>
                 <Tools />
 
-                <div className='bg-gray-300 rounded-xl mt-4 lg:hidden p-2'>
+                <div className='mt-4 lg:hidden p-2'>
                     <button
-                        className='block w-32 h-10 bg-blue-600 mx-auto'
+                        className='flex w-32 h-10 bg-white rounded-lg mx-auto shadow-lg relative focus:outline-none'
                         onClick={() =>
                             setShowSidebar((prevState) => !prevState)
                         }
                     >
-                        Toggle Slider
+                        <div
+                            className={`w-16 h-full bg-blue-400 absolute top-0 rounded-lg transform duration-300 ${
+                                showSidebar ? "translate-x-full" : ""
+                            }`}
+                        ></div>
+                        <div
+                            className={`flex justify-center items-center w-16 h-full transform duration-300 ${
+                                showSidebar ? "text-gray-400" : "text-white"
+                            }`}
+                        >
+                            <svg
+                                xmlns='http://www.w3.org/2000/svg'
+                                className='h-5 w-5'
+                                viewBox='0 0 20 20'
+                                fill='currentColor'
+                            >
+                                <path d='M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z' />
+                            </svg>
+                        </div>
+                        <div
+                            className={`flex justify-center items-center w-16 h-full transform duration-300 ${
+                                !showSidebar ? "text-gray-400" : "text-white"
+                            }`}
+                        >
+                            <svg
+                                xmlns='http://www.w3.org/2000/svg'
+                                className='h-5 w-5'
+                                viewBox='0 0 20 20'
+                                fill='currentColor'
+                            >
+                                <path d='M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z' />
+                                <path d='M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z' />
+                            </svg>
+                        </div>
                     </button>
                 </div>
 
@@ -146,9 +182,12 @@ const Dashboard = () => {
                                 <Blog />
                             </div>
 
-                            <div className=' w-full lg:w-1/4 h-52 flex-shrink-0 lg:flex-shrink bg-gray-300 rounded-xl'>
-                                {" "}
-                                sidebar
+                            <div className=' w-full lg:w-1/4 flex-shrink-0 lg:flex-shrink rounded-xl'>
+                                <div className='bg-indigo-50 rounded-xl p-5 space-y-10 flex flex-col'>
+                                    <Percentage />
+                                    <Cards />
+                                    <Transactions />
+                                </div>
                             </div>
                         </div>
                     </div>
