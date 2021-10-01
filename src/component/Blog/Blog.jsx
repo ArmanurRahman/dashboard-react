@@ -9,6 +9,7 @@ const Blog = () => {
                         <img
                             className='w-10 h-10 object-cover'
                             src={ProfilePic}
+                            alt=''
                         />
                     </div>
                     <div>
@@ -19,7 +20,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <h3 className='text-lg font-semibold'>
-                    <a className='hover:text-blue-800' href='#'>
+                    <a className='hover:text-blue-800' href='/#'>
                         How to properly manage personal budget?
                     </a>
                 </h3>
@@ -88,7 +89,7 @@ const Blog = () => {
                         5 days ago
                     </div>
                     <a
-                        href='#'
+                        href='/#'
                         className='bg-blue-800 text-white rounded-full hover:bg-red-500 px-4 py-3 flex space-x-3 items-center'
                     >
                         <span>Connect</span>
@@ -115,6 +116,7 @@ const Blog = () => {
                         <img
                             className='w-10 h-10 object-cover'
                             src={ProfilePic}
+                            alt=''
                         />
                     </div>
                     <div>
@@ -125,7 +127,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <h3 className='text-lg font-semibold'>
-                    <a className='hover:text-blue-800' href='#'>
+                    <a className='hover:text-blue-800' href='/#'>
                         How to properly manage personal budget?
                     </a>
                 </h3>
@@ -194,7 +196,7 @@ const Blog = () => {
                         5 days ago
                     </div>
                     <a
-                        href='#'
+                        href='/#'
                         className='bg-blue-800 text-white rounded-full hover:bg-red-500 px-4 py-3 flex space-x-3 items-center'
                     >
                         <span>Connect</span>

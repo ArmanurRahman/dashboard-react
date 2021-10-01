@@ -3,7 +3,7 @@ const Percentage = () => {
         <div>
             <div className='w-full text-right mb-6'>
                 <a
-                    href='#'
+                    href='/#'
                     className='inline-block w-6 text-gray-400 hover:text-gray-800'
                 >
                     <svg

@@ -6,7 +6,7 @@ const Transactions = () => {
                     Transactions
                 </h3>
                 <a
-                    href='#'
+                    href='/#'
                     className='block w-6 h-6 bg-red-500 text-white rounded-lg'
                 >
                     <svg

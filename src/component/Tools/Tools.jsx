@@ -13,7 +13,7 @@ const Tools = () => {
                 <div className='flex justify-between'>
                     <div className='lg:hidden'>
                         <a
-                            href='#'
+                            href='/#'
                             className='w-14 h-14 flex items-center justify-center text-blue-800 rounded-xl'
                         >
                             <svg
@@ -33,19 +33,19 @@ const Tools = () => {
                         </a>
                     </div>
                     <div className='h-10 hidden lg:flex items-center space-x-6 font-semibold '>
-                        <a href='#' className='hover:text-blue-800'>
+                        <a href='/#' className='hover:text-blue-800'>
                             Feedback
                         </a>
-                        <a href='#' className='hover:text-blue-800'>
+                        <a href='/#' className='hover:text-blue-800'>
                             Contact
                         </a>
-                        <a href='#' className='hover:text-blue-800'>
+                        <a href='/#' className='hover:text-blue-800'>
                             Help
                         </a>
                     </div>
                     <div className='flex justify-between space-x-1'>
                         <a
-                            href=''
+                            href='/#'
                             className='flex items-center justify-center w-10 h-10 hover:text-gray-700 relative'
                         >
                             <svg
@@ -74,6 +74,7 @@ const Tools = () => {
                                 <img
                                     src={ProfileImg}
                                     className='w-10 h-10 object-cover'
+                                    alt=''
                                 />
                             </button>
 
@@ -90,19 +91,19 @@ const Tools = () => {
                                             </div>
                                             <div className='lg:hidden border-b'>
                                                 <a
-                                                    href='#'
+                                                    href='/#'
                                                     className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                                 >
                                                     Feedback
                                                 </a>
                                                 <a
-                                                    href='#'
+                                                    href='/#'
                                                     className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                                 >
                                                     Contracts
                                                 </a>
                                                 <a
-                                                    href='#'
+                                                    href='/#'
                                                     className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                                 >
                                                     Help
@@ -110,19 +111,19 @@ const Tools = () => {
                                             </div>
 
                                             <a
-                                                href='#'
+                                                href='/#'
                                                 className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                             >
                                                 profile
                                             </a>
                                             <a
-                                                href='#'
+                                                href='/#'
                                                 className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                             >
                                                 Settings
                                             </a>
                                             <a
-                                                href='#'
+                                                href='/#'
                                                 className='block px-4 py-2 text-gray-700 hover:bg-gray-100'
                                             >
                                                 Logout

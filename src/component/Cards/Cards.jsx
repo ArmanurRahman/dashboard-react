@@ -4,7 +4,7 @@ const Cards = () => {
             <div className='flex justify-between'>
                 <h3 className='text-lg font-semibold text-gray-700'> Cards</h3>
                 <a
-                    href='#'
+                    href='/#'
                     className='inline-block w-6 text-gray-400 hover:text-gray-800'
                 >
                     <svg

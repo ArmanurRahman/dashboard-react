@@ -14,7 +14,7 @@ const Dashboard = () => {
             <div className='fixed lg:static bottom-0 w-full lg:w-24 lg:h-full z-10'>
                 <div className=' relative lg:fixed w-full lg:w-24 h-full bg-blue-800'>
                     <a
-                        href='#'
+                        href='/#'
                         className='hidden absolute top-10 left-1/2 transform -translate-x-1/2 w-14 h-14 lg:flex lg:items-center lg:justify-center text-white rounded-xl hover:bg-white hover:bg-opacity-60'
                     >
                         <svg

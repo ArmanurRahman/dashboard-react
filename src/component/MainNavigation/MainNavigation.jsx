@@ -1,7 +1,7 @@
 const MainNavigation = () => {
     return (
         <div className='flex lg:flex-col items-center justify-center h-full lg:space-y-4 space-x-4 lg:space-x-0 py-2 lg:py-4'>
-            <a href='#' className='group'>
+            <a href='/#' className='group'>
                 <div className='flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-60 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:translate-y-0  group-hover:-translate-y-8 duration-300 group-hover:shadow-xl'>
                     {" "}
                     <svg
@@ -14,7 +14,7 @@ const MainNavigation = () => {
                     </svg>
                 </div>
             </a>
-            <a href='#' className='group'>
+            <a href='/#' className='group'>
                 <div className='flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-60 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:translate-y-0  group-hover:-translate-y-8 duration-300 group-hover:shadow-xl'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -27,7 +27,7 @@ const MainNavigation = () => {
                     </svg>
                 </div>
             </a>
-            <a href='#' className='group'>
+            <a href='/#' className='group'>
                 <div className='flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-60 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:translate-y-0  group-hover:-translate-y-8 duration-300 group-hover:shadow-xl'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -43,7 +43,7 @@ const MainNavigation = () => {
                     </svg>
                 </div>
             </a>
-            <a href='#' className='group'>
+            <a href='/#' className='group'>
                 <div className='flex justify-center items-center w-10 h-10 lg:w-14 lg:h-14 text-white opacity-60 rounded-xl group-hover:bg-white group-hover:opacity-100 group-hover:text-red-500 transform lg:group-hover:translate-x-8 lg:group-hover:translate-y-0  group-hover:-translate-y-8 duration-300 group-hover:shadow-xl'>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
